@@ -1,4 +1,4 @@
-package Java.Multiuse;
+package Java.MultiUse;
 
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
@@ -9,10 +9,10 @@ public class GridBagCreator {
     private GridBagConstraints result;
 
     public GridBagCreator(){
-        constraints = DefaultConstraints();
+        constraints = defaultConstraints();
     }
 
-    private GridBagConstraints DefaultConstraints(){
+    private GridBagConstraints defaultConstraints(){
         defaultConstraints = new GridBagConstraints();
         defaultConstraints.gridx = 0;
         defaultConstraints.gridy = 0;

@@ -1,4 +1,4 @@
-package Java.Multiuse;
+package Java.MultiUse;
 
 import javax.swing.JFrame;
 import java.awt.Dimension;
